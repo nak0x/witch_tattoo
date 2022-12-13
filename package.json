@@ -1,0 +1,26 @@
+{
+  "name": "witch_tattoo",
+  "version": "1.0.0",
+  "description": "School project in mevn for a fake tattoo shop in Grenoble, France.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theolesage/witch_tattoo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theolesage/witch_tattoo/issues"
+  },
+  "homepage": "https://github.com/theolesage/witch_tattoo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
