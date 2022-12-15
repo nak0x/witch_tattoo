@@ -6,15 +6,17 @@ const cors = require('cors')
 require('dotenv').config()
 
 // Basics middelwears
-
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(cors())
 
-// Routing
+// Serve files from the public directory
+app.use(express.static('public'))
 
+// Routing
 const router = require('./routes/index.routes')
 app.use(router)
+
 
 // Running the app
 
