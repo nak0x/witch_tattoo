@@ -140,6 +140,12 @@ import axios from 'axios'
     color: var(--white);
 }
 
+.form-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .form-container{
     display: flex;
     justify-content: center;
